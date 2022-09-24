@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nomDAO</title>
+    <style>
+      body {
+        margin:  0;
+        -webkit-font-smoothing: antialiased;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="popUpEl" class ="bg-black bg-opacity-75 fixed px-3 py-2 rounded-lg">
+      <h2 class ="text-white text-xs">
+        <span id= "populationEl"></span>
+        <span>Impact</span>
+      </h2>
+      <p id="populationValueEl" class = "text-white font-bold text-lg">300mil</p>
+    </div>
+      <div class="min-h-screen min-w-full" id="canvasContainer">
+        <canvas class="object-cover"></canvas>
+      </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
+
+<!-- Need to change popUpEl and populayiomnValueEl -->
